@@ -1,0 +1,6 @@
+<snippet>
+  <tabTrigger>set</tabTrigger>
+  <description>Set</description>
+  <content><![CDATA[Set.new($1)$0]]></content>
+  <scope>source.ruby</scope>
+</snippet>

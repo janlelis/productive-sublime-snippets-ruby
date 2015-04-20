@@ -1,0 +1,19 @@
+<snippet>
+  <tabTrigger>ips</tabTrigger>
+  <description>Stdlib IPS Benchmark</description>
+  <content><![CDATA[require "benchmark/ips"
+
+Benchmark.ips do |x|
+	x.report("${1:description of first case}"){
+		${3:# code for first case}
+	}
+
+	x.report("${2:description of second case}"){
+		${4:# code for second case}
+	}
+
+	x.compare!
+end
+$0]]></content>
+  <scope>source.ruby</scope>
+</snippet>

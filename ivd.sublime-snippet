@@ -1,0 +1,6 @@
+<snippet>
+  <tabTrigger>ivg</tabTrigger>
+  <description>Instance Variable Defined? Check</description>
+  <content><![CDATA[instance_variable_defined?(:@${1:variable})$0]]></content>
+  <scope>source.ruby</scope>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+  <tabTrigger>range</tabTrigger>
+  <description>Range (Inclusive)</description>
+  <content><![CDATA[(${1:start}..${2:end})]]></content>
+  <scope>source.ruby</scope>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+    <tabTrigger>###</tabTrigger>
+    <description>Ruby Shebang</description>
+    <content><![CDATA[# # #
+# ]]></content>
+    <scope>source.ruby</scope>
+</snippet>

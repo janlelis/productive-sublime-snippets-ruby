@@ -1,0 +1,6 @@
+<snippet>
+  <tabTrigger>regexx</tabTrigger>
+  <description>Regex with x Option</description>
+  <content><![CDATA[/${1:\A${2:.*}\z}/x$0]]></content>
+  <scope>source.ruby</scope>
+</snippet>

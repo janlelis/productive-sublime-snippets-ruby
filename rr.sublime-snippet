@@ -1,0 +1,7 @@
+<snippet>
+  <tabTrigger>rr</tabTrigger>
+  <description>Require Relative Method</description>
+  <content><![CDATA[require_relative "$1"
+$0]]></content>
+  <scope>source.ruby</scope>
+</snippet>

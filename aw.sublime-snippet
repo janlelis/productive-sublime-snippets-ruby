@@ -1,0 +1,6 @@
+<snippet>
+  <tabTrigger>aw</tabTrigger>
+  <description>Attribute Writer</description>
+  <content><![CDATA[attr_writer :${0:name}]]></content>
+  <scope>source.ruby</scope>
+</snippet>

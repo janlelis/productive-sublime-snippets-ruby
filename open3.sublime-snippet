@@ -1,0 +1,8 @@
+<snippet>
+  <tabTrigger>open3</tabTrigger>
+  <description>Pipe Open</description>
+  <content><![CDATA[Open3.popen3(${1:command}){ |in_, out, err, waiter|
+	$0
+}]]></content>
+  <scope>source.ruby</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+  <tabTrigger>here'</tabTrigger>
+  <description>Heredoc without Interpolation</description>
+  <content><![CDATA[<<-'${1:STRING}'
+$0
+$1]]></content>
+  <scope>source.ruby</scope>
+</snippet>

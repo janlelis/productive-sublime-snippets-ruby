@@ -1,0 +1,9 @@
+<snippet>
+  <tabTrigger>while</tabTrigger>
+  <description>While Statement</description>
+  <content><![CDATA[while ${1:condition}
+	$2
+end
+$0]]></content>
+  <scope>source.ruby</scope>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+  <tabTrigger>Name</tabTrigger>
+  <description>Insert Camelized Filename</description>
+  <content><![CDATA[${1:${TM_FILENAME/(?:\A|_)([A-Za-z0-9]+)(?:\.rb)?/(?2::\u$1)/g}}]]></content>
+  <scope>source.ruby</scope>
+</snippet>

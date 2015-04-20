@@ -1,0 +1,7 @@
+<snippet>
+  <tabTrigger>alias</tabTrigger>
+  <description>Define Alias</description>
+  <content><![CDATA[alias ${1:new} ${2:existing}
+$0]]></content>
+  <scope>source.ruby</scope>
+</snippet>

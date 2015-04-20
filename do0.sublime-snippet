@@ -1,0 +1,8 @@
+<snippet>
+  <tabTrigger>do0</tabTrigger>
+  <description>Do Block without Arguments</description>
+  <content><![CDATA[do
+	$0
+end]]></content>
+  <scope>source.ruby</scope>
+</snippet>

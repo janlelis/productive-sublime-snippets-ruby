@@ -1,0 +1,7 @@
+<snippet>
+  <tabTrigger>prepend</tabTrigger>
+  <description>Prepend Method</description>
+  <content><![CDATA[prepend ${1:ModuleName}
+$0]]></content>
+  <scope>source.ruby</scope>
+</snippet>

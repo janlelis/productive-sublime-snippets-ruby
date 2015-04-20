@@ -1,0 +1,7 @@
+<snippet>
+    <tabTrigger>!ruby</tabTrigger>
+    <description>Ruby Shebang</description>
+    <content><![CDATA[#!/usr/bin/env ruby
+$0]]></content>
+    <scope>source.ruby</scope>
+</snippet>

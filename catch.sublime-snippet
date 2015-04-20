@@ -1,0 +1,8 @@
+<snippet>
+  <tabTrigger>catch</tabTrigger>
+  <description>Catch and Throw Flow</description>
+  <content><![CDATA[catch(:${1:event}) do
+	throw(:$1)
+end]]></content>
+  <scope>source.ruby</scope>
+</snippet>

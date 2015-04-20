@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>loop</tabTrigger>
+  <description>Loop Block with StopIteration Call</description>
+  <content><![CDATA[loop do
+	$1
+	raise StopIteration
+end
+$0]]></content>
+  <scope>source.ruby</scope>
+</snippet>

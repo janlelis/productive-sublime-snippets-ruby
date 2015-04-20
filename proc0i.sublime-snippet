@@ -1,0 +1,6 @@
+<snippet>
+  <tabTrigger>proc0i</tabTrigger>
+  <description>Proc without Arguments (Inline)</description>
+  <content><![CDATA[proc{ $1 }$0]]></content>
+  <scope>source.ruby</scope>
+</snippet>

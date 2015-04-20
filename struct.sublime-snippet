@@ -1,0 +1,8 @@
+<snippet>
+  <tabTrigger>struct</tabTrigger>
+  <description>Struct</description>
+  <content><![CDATA[${1:NewStructClass} = Struct.new(:${2:attributes}) do
+	$0
+end]]></content>
+  <scope>source.ruby</scope>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+  <tabTrigger>sha256</tabTrigger>
+  <description>SHA 256 Hash Sum</description>
+  <content><![CDATA[OpenSSL::Digest::SHA256.new($1)$0]]></content>
+  <scope>source.ruby</scope>
+</snippet>

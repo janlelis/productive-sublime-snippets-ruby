@@ -1,0 +1,6 @@
+<snippet>
+  <tabTrigger>regexm</tabTrigger>
+  <description>Regex with m Option</description>
+  <content><![CDATA[/${1:\A${2:.*}\z}/m$0]]></content>
+  <scope>source.ruby</scope>
+</snippet>

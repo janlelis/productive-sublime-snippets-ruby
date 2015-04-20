@@ -1,0 +1,14 @@
+<snippet>
+  <tabTrigger>timeout</tabTrigger>
+  <description>Stdlib Timeout</description>
+  <content><![CDATA[begin
+	Timeout.timeout(${1:seconds}){
+		${2:# code}
+	}
+rescue Timeout::Error
+	$3
+end
+$0]]></content>
+  <scope>source.ruby</scope>
+</snippet>
+

@@ -1,0 +1,7 @@
+<snippet>
+  <tabTrigger>ld</tabTrigger>
+  <description>Load Method</description>
+  <content><![CDATA[load "$1.rb"
+$0]]></content>
+  <scope>source.ruby</scope>
+</snippet>

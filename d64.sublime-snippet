@@ -1,0 +1,7 @@
+<snippet>
+  <tabTrigger>d64</tabTrigger>
+  <description>Decode Base64</description>
+  <content><![CDATA[Base64.decode64($1)$0]]></content>
+  <scope>source.ruby</scope>
+</snippet>
+

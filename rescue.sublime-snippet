@@ -1,0 +1,7 @@
+<snippet>
+  <tabTrigger>rescue</tabTrigger>
+  <description>Rescue Statement</description>
+  <content><![CDATA[rescue ${1:StandardError} => ${2:e}
+	$0]]></content>
+  <scope>source.ruby</scope>
+</snippet>

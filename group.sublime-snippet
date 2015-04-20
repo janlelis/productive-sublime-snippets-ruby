@@ -1,0 +1,8 @@
+<snippet>
+  <tabTrigger>group</tabTrigger>
+  <description>Bundler Group</description>
+  <content><![CDATA[group :${1:development} do
+	$0
+end]]></content>
+  <scope>source.ruby</scope>
+</snippet>

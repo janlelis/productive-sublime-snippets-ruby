@@ -1,0 +1,16 @@
+<snippet>
+  <tabTrigger>minispec</tabTrigger>
+  <description>Basic Minitest Spec Template</description>
+  <content><![CDATA[require_relative "$1"
+require "minitest/autorun"
+
+describe "$2" do
+	it "${3:works}" do
+		assert_equal ${4:true}, ${5:false}
+	end
+end
+]]></content>
+  <scope>source.ruby</scope>
+</snippet>
+
+

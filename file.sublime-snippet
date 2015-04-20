@@ -1,0 +1,6 @@
+<snippet>
+  <tabTrigger>file</tabTrigger>
+  <description>Special __FILE__ Statement</description>
+  <content><![CDATA[__FILE__]]></content>
+  <scope>source.ruby</scope>
+</snippet>

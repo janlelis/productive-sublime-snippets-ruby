@@ -1,0 +1,9 @@
+<snippet>
+  <tabTrigger>{</tabTrigger>
+  <description>{} Block</description>
+  <content><![CDATA[{ |${1:*args}|
+	$0
+
+]]></content>
+  <scope>source.ruby</scope>
+</snippet>

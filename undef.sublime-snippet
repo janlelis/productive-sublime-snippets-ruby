@@ -1,0 +1,7 @@
+<snippet>
+  <tabTrigger>undef</tabTrigger>
+  <description>Undefine Method</description>
+  <content><![CDATA[undef ${1:method_name}
+$0]]></content>
+  <scope>source.ruby</scope>
+</snippet>

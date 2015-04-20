@@ -1,0 +1,6 @@
+<snippet>
+  <tabTrigger>defined</tabTrigger>
+  <description>Defined? Check</description>
+  <content><![CDATA[defined?($1)$0]]></content>
+  <scope>source.ruby</scope>
+</snippet>

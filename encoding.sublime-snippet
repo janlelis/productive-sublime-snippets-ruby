@@ -1,0 +1,6 @@
+<snippet>
+  <tabTrigger>encoding</tabTrigger>
+  <description>Special __ENCODING__ Statement</description>
+  <content><![CDATA[__ENCODING__]]></content>
+  <scope>source.ruby</scope>
+</snippet>

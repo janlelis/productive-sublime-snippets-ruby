@@ -1,0 +1,6 @@
+<snippet>
+  <tabTrigger>callee</tabTrigger>
+  <description>Special __callee__ Method</description>
+  <content><![CDATA[__callee__]]></content>
+  <scope>source.ruby</scope>
+</snippet>

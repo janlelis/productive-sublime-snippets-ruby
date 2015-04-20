@@ -1,0 +1,6 @@
+<snippet>
+  <tabTrigger>uuid</tabTrigger>
+  <description>Random Type4 UUID</description>
+  <content><![CDATA[SecureRandom.uuid]]></content>
+  <scope>source.ruby</scope>
+</snippet>

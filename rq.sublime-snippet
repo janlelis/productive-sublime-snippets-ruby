@@ -1,0 +1,7 @@
+<snippet>
+  <tabTrigger>rq</tabTrigger>
+  <description>Require Method</description>
+  <content><![CDATA[require "$1"
+$0]]></content>
+  <scope>source.ruby</scope>
+</snippet>

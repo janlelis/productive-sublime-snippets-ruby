@@ -1,0 +1,16 @@
+<snippet>
+  <tabTrigger>case</tabTrigger>
+  <description>Case Statement</description>
+  <content><![CDATA[case ${1:object}
+when ${2:condition}
+ 	$5
+when ${3:condition2}
+	$6
+when ${4:condition3}
+	$7
+else
+	$8
+end
+$0]]></content>
+  <scope>source.ruby</scope>
+</snippet>

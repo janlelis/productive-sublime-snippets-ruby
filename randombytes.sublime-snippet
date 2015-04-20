@@ -1,0 +1,6 @@
+<snippet>
+  <tabTrigger>randombytes</tabTrigger>
+  <description>Random Bytes</description>
+  <content><![CDATA[SecureRandom.random_bytes(${1:16})$0]]></content>
+  <scope>source.ruby</scope>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+  <tabTrigger>defsi</tabTrigger>
+  <description>Method Definition on self (Inline)</description>
+  <content><![CDATA[def self.${1:method_name}($2) $3 end
+$0]]></content>
+  <scope>source.ruby</scope>
+</snippet>

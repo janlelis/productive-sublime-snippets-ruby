@@ -1,0 +1,8 @@
+<snippet>
+  <tabTrigger>init0</tabTrigger>
+  <description>Initialize without Arguments</description>
+  <content><![CDATA[def initialize
+	$0
+end]]></content>
+  <scope>source.ruby</scope>
+</snippet>

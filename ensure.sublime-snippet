@@ -1,0 +1,7 @@
+<snippet>
+  <tabTrigger>ensure</tabTrigger>
+  <description>Ensure Statement</description>
+  <content><![CDATA[ensure
+	$0]]></content>
+  <scope>source.ruby</scope>
+</snippet>

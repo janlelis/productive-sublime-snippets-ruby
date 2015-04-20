@@ -1,0 +1,9 @@
+<snippet>
+  <tabTrigger>gemfilegemspec</tabTrigger>
+  <description>Basic Gemfile Template for Gems</description>
+  <content><![CDATA[source "https://rubygems.org"
+
+gemspec
+$0]]></content>
+  <scope>source.ruby</scope>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+  <tabTrigger>ivg</tabTrigger>
+  <description>Instance Variable Getter</description>
+  <content><![CDATA[instance_variable_get(:@${1:variable})$0]]></content>
+  <scope>source.ruby</scope>
+</snippet>

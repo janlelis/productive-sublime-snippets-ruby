@@ -1,0 +1,7 @@
+<snippet>
+  <tabTrigger>hashproc</tabTrigger>
+  <description>New Hash with Default Proc</description>
+  <content><![CDATA[Hash.new{ |${1:h},${2:k}| ${1:h}[${2:k}] = ${3:[]} }
+$0]]></content>
+  <scope>source.ruby</scope>
+</snippet>

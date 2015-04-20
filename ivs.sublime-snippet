@@ -1,0 +1,6 @@
+<snippet>
+  <tabTrigger>ivs</tabTrigger>
+  <description>Instance Variable Setter</description>
+  <content><![CDATA[instance_variable_set(:@${1:variable}, ${2:value})$0]]></content>
+  <scope>source.ruby</scope>
+</snippet>

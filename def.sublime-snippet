@@ -1,0 +1,8 @@
+<snippet>
+  <tabTrigger>def</tabTrigger>
+  <description>Method Definition with Arguments</description>
+  <content><![CDATA[def ${1:method_name}(${2:*args})
+	$0
+end]]></content>
+  <scope>source.ruby</scope>
+</snippet>

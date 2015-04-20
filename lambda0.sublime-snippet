@@ -1,0 +1,6 @@
+<snippet>
+  <tabTrigger>lambda0</tabTrigger>
+  <description>Create Lambda without Arguments</description>
+  <content><![CDATA[->{ $1 }$0]]></content>
+  <scope>source.ruby</scope>
+</snippet>

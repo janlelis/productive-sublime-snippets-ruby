@@ -1,0 +1,6 @@
+<snippet>
+  <tabTrigger>&amp;</tabTrigger>
+  <description>Symbol To Proc</description>
+  <content><![CDATA[(&:${1:method_name})$0]]></content>
+  <scope>source.ruby</scope>
+</snippet>

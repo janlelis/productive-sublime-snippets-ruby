@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>task</tabTrigger>
+  <description>Rake Task</description>
+  <content><![CDATA[desc "${1:description}"
+task :${2:task_name}${3: => :${4:dependens_on}} do
+	$5
+end
+$0]]></content>
+  <scope>source.ruby</scope>
+</snippet>

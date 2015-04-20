@@ -1,0 +1,7 @@
+<snippet>
+  <tabTrigger>ascii</tabTrigger>
+  <description>ASCII - Source Encoding Comment</description>
+  <content><![CDATA[# encoding: ascii
+$0]]></content>
+  <scope>source.ruby</scope>
+</snippet>

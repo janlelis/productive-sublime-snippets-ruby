@@ -1,0 +1,29 @@
+<snippet>
+  <tabTrigger>gemspec</tabTrigger>
+  <description>Basic Gemspec Template</description>
+  <content><![CDATA[# -*- encoding: utf-8 -*-
+
+require File.dirname(__FILE__) + "/lib/${1:gem_name}/version"
+
+Gem::Specification.new do |gem|
+	gem.name          = "$1"
+	gem.version       = ${2:GemModuleName}::VERSION
+	gem.summary       = "${6:TODO}"
+	gem.description   = "$6"
+	gem.authors       = ["${3:Author Name}"]
+	gem.email         = ["${4:author@example.com}"]
+	gem.homepage      = "https://github.com/janlelis/{$1}"
+	gem.license       = "MIT"
+
+	gem.files         = Dir["{**/}{.*,*}"].select{ |path| File.file?(path) && path !~ /^pkg/ }
+	gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
+	gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
+	gem.require_paths = ["lib"]
+
+	gem.required_ruby_version = "~> ${5:2.0}"
+	${7:gem.add_dependency "$0"}
+end
+]]></content>
+  <scope>source.ruby</scope>
+</snippet>
+

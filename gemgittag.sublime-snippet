@@ -1,0 +1,7 @@
+<snippet>
+  <tabTrigger>gemgittag</tabTrigger>
+  <description>Bundler Gem Line with Git Option (Tag)</description>
+  <content><![CDATA[gem "$1", git: "$2", tag: "$4"
+$0]]></content>
+  <scope>source.ruby</scope>
+</snippet>

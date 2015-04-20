@@ -1,0 +1,12 @@
+<snippet>
+  <tabTrigger>moduleextended</tabTrigger>
+  <description>Module Definition with Extended Hook</description>
+  <content><![CDATA[module ${1:${TM_FILENAME/(?:\A|_)([A-Za-z0-9]+)(?:\.rb)?/(?2::\u$1)/g}}
+	def self.extended(base)
+		$2
+	end
+
+	$0
+end]]></content>
+  <scope>source.ruby</scope>
+</snippet>

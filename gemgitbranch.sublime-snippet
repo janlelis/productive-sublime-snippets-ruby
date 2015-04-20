@@ -1,0 +1,7 @@
+<snippet>
+  <tabTrigger>gemgitbranch</tabTrigger>
+  <description>Bundler Gem Line with Git Option (Branch)</description>
+  <content><![CDATA[gem "$1", git: "$2", branch: "${4:master}"
+$0]]></content>
+  <scope>source.ruby</scope>
+</snippet>

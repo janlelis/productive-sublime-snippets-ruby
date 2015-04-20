@@ -1,0 +1,9 @@
+<snippet>
+  <tabTrigger>class&lt;&lt;</tabTrigger>
+  <description>Open Singleton Class</description>
+  <content><![CDATA[class << ${1:self}
+	$2
+end
+$0]]></content>
+  <scope>source.ruby</scope>
+</snippet>

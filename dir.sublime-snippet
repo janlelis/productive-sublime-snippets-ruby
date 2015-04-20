@@ -1,0 +1,6 @@
+<snippet>
+  <tabTrigger>dir</tabTrigger>
+  <description>Special __dir__ Method</description>
+  <content><![CDATA[__dir__]]></content>
+  <scope>source.ruby</scope>
+</snippet>

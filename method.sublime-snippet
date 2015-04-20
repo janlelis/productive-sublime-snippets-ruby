@@ -1,0 +1,6 @@
+<snippet>
+  <tabTrigger>method</tabTrigger>
+  <description>Special __method__ Method</description>
+  <content><![CDATA[__method__]]></content>
+  <scope>source.ruby</scope>
+</snippet>

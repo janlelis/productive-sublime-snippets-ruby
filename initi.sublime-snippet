@@ -1,0 +1,7 @@
+<snippet>
+  <tabTrigger>init</tabTrigger>
+  <description>Initialize Method (Inline)</description>
+  <content><![CDATA[def initialize($1) $2 end
+$0]]></content>
+  <scope>source.ruby</scope>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+  <tabTrigger>exception</tabTrigger>
+  <description>New Custom Error (Exception)</description>
+  <content><![CDATA[class ${1:NewError} < Exception
+	$2
+end
+$0]]></content>
+  <scope>source.ruby</scope>
+</snippet>

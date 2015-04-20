@@ -1,0 +1,7 @@
+<snippet>
+  <tabTrigger>defoi</tabTrigger>
+  <description>Method Definition on Object (Inline)</description>
+  <content><![CDATA[def ${1:object}.${2:method_name}($3) $4 end
+$0]]></content>
+  <scope>source.ruby</scope>
+</snippet>
