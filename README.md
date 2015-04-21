@@ -10,7 +10,7 @@
 
 - Search in Sublime's package control for "ProductiveSnippetsRuby" OR
 - Clone into a directory in your Sublime Text Package/User folder
-- Delete interfering stock Ruby snippets
+- [Delete interfering Ruby snippets](http://ruby.janlelis.de/71-be-more-productive-with-better-sublime-snippets-for-ruby)
 
 ## Cheat Sheet
 
