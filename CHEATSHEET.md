@@ -60,8 +60,9 @@
              if | If Statement
             ife | If Statement with Else Clause
         include | Include Method
-           init | Initialize Method (Inline)
+           init | Initialize Method with Arguments
           init0 | Initialize without Arguments
+          initi | Initialize Method (Inline)
             ips | Stdlib IPS Benchmark
             ivg | Instance Variable Getter
             ivs | Instance Variable Setter
