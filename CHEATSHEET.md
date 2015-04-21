@@ -15,7 +15,7 @@
           begin | Begin / Rescue Statement
          begine | Begin / Rescue / Ensure Statement
          binary | Binary - Source Encoding Comment
-         callee | Special __callee__ Method
+         callee | Special \_\_callee\_\_ Method
            case | Case Statement
           case0 | Case Statement as If Alternative
           catch | Catch and Throw Flow
@@ -34,18 +34,18 @@
            defs | Method Definition on self with Arguments
           defs0 | Method Definition on self without Arguments
           defsi | Method Definition on self (Inline)
-            dir | Special __dir__ Method
+            dir | Special \_\_dir\_\_ Method
              do | Do Block with Arguments
             do0 | Do Block without Arguments
             e64 | Encode Base64
            else | Else Statement
           elsif | Elsif Statement
-       encoding | Special __ENCODING__ Statement
+       encoding | Special \_\_ENCODING\_\_ Statement
          ensure | Ensure Statement
           error | New Custom Error Class
       exception | New Custom Error (Exception)
          extend | Extend Method
-           file | Special __FILE__ Statement
+           file | Special \_\_FILE\_\_ Statement
             gem | Bundler Gem Line
         gemfile | Basic Gemfile Template
  gemfilegemspec | Basic Gemfile Template for Gems
@@ -69,9 +69,9 @@
         lambda0 | Create Lambda without Arguments
         lambdai | Create Lambda with Arguments (Inline)
              ld | Load Method
-           line | Special __LINE__ Statement
+           line | Special \_\_LINE\_\_ Statement
            loop | Loop Block with StopIteration Call
-         method | Special __method__ Method
+         method | Special \_\_method\_\_ Method
        minispec | Basic Minitest Spec Template
          module | Module Definition
  moduleextended | Module Definition with Extended Hook
