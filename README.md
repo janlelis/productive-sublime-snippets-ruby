@@ -8,12 +8,13 @@
 
 ## Install
 
+- Search in Sublime's package control for "ProductiveSnippetsRuby" OR
 - Clone into a directory in your Sublime Text Package/User folder
 - Delete interfering stock Ruby snippets
 
 ## Cheat Sheet
 
-See [CHEATSHEET.md](https://github.com/janlelis/productive-sublime-snippets-ruby/blob/master/CHEATSHEET.md)
+- See [CHEATSHEET.md](https://github.com/janlelis/productive-sublime-snippets-ruby/blob/master/CHEATSHEET.md)
 
 ## Also See
 
