@@ -3,7 +3,7 @@
         Trigger | Description
 ----------------|------------
           !ruby | Ruby Shebang
-            ### | Ruby Shebang
+            ### | Comment Section
               & | Symbol To Proc
              ?: | Ternary Operator
            Name | Insert Camelized Filename

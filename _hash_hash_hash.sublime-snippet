@@ -1,6 +1,6 @@
 <snippet>
     <tabTrigger>###</tabTrigger>
-    <description>Ruby Shebang</description>
+    <description>Comment Section</description>
     <content><![CDATA[# # #
 # ]]></content>
     <scope>source.ruby</scope>
