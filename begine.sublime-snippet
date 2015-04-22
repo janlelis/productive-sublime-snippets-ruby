@@ -3,7 +3,7 @@
   <description>Begin / Rescue / Ensure Statement</description>
   <content><![CDATA[begin
 	$3
-rescue ${1:StandardError} => ${2:e}}
+rescue ${1:StandardError} => ${2:e}
 	$4
 ensure
 	$5
