@@ -1,6 +1,6 @@
 <snippet>
   <tabTrigger>undef</tabTrigger>
-  <description>Undefine Method</description>
+  <description>Undefine a Method</description>
   <content><![CDATA[undef ${1:method_name}
 $0]]></content>
   <scope>source.ruby</scope>

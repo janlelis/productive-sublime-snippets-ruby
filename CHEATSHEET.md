@@ -1,7 +1,7 @@
 # Productive Ruby Snippets Cheat Sheet
 
-        Trigger |                                       Description | Wrapable?
-----------------|---------------------------------------------------| ---------
+        Trigger |                                        Description | Wrappable?
+----------------|----------------------------------------------------| ----------
           !ruby |                                       Ruby Shebang |
             ### |                                    Comment Section | X
               & |                                     Symbol To Proc |
@@ -42,7 +42,7 @@
           elsif |                                    Elsif Statement |
        encoding |                 Special \_\_ENCODING\_\_ Statement |
          ensure |                                   Ensure Statement |
-          error |                             New Custom Error Class |
+          error |                                   New Custom Error |
       exception |                       New Custom Error (Exception) |
          extend |                                      Extend Method |
            file |                     Special \_\_FILE\_\_ Statement |
@@ -95,15 +95,15 @@
          regexm |                                Regex with m Option |
          regexx |                                Regex with x Option |
          rescue |                                   Rescue Statement |
-             rq |                                     Require Method |
-             rr |                            Require Relative Method |
+             rq |                                            Require |
+             rr |                                   Require Relative |
             set |                                                Set |
          sha256 |                                   SHA 256 Hash Sum |
          sha512 |                                   SHA 512 Hash Sum |
          struct |                                             Struct |
            task |                                          Rake Task | X
         timeout |                                     Stdlib Timeout | X
-          undef |                                    Undefine Method |
+          undef |                                  Undefine a Method |
          unless |                                   Unless Statement | X
           until |                                    Until Statement | X
             utf |                    UTF-8 - Source Encoding Comment |

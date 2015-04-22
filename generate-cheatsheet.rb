@@ -16,8 +16,8 @@ Dir["*.sublime-snippet"].each{ |filename|
 banner = <<BANNER
 # #{title}
 
-        Trigger |                                        Description | Wrapable?
-----------------|----------------------------------------------------| ---------
+        Trigger |                                        Description | Wrappable?
+----------------|----------------------------------------------------| ----------
 BANNER
 
 puts banner + snippets.sort.map{ |trigger, (description, wrapable)|

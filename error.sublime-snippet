@@ -1,6 +1,6 @@
 <snippet>
   <tabTrigger>error</tabTrigger>
-  <description>New Custom Error Class</description>
+  <description>New Custom Error</description>
   <content><![CDATA[class ${1:NewError} < ${2:StandardError}
 	$3
 end
