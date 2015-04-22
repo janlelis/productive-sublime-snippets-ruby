@@ -68,6 +68,7 @@
             ivs | Instance Variable Setter
          lambda | Create Lambda with Arguments
         lambda0 | Create Lambda without Arguments
+       lambda0i | Create Lambda without Arguments (Inline)
         lambdai | Create Lambda with Arguments (Inline)
              ld | Load Method
            line | Special \_\_LINE\_\_ Statement

@@ -3,6 +3,7 @@
 ## 1.0.2
 
 * Fix begin and begine snippets: Remove superflous "}"
+* Separate lambda0 and lambda0i (be consistent with proc)
 
 ## 1.0.1
 
