@@ -3,6 +3,7 @@
 ## 1.0.3
 
 * Explain overlay list of all wrappable snippets
+* Fix { to work well in both ways, when used as wrappable or not
 
 ## 1.0.2
 
