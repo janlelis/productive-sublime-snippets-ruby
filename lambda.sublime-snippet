@@ -2,7 +2,7 @@
   <tabTrigger>lambda</tabTrigger>
   <description>Create Lambda with Arguments</description>
   <content><![CDATA[->($1){
-  $2
+${SELECTION/([^\n]+|^)/\t$0/g}$2
 }$0]]></content>
   <scope>source.ruby</scope>
 </snippet>

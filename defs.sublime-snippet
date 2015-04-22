@@ -2,7 +2,7 @@
   <tabTrigger>defs</tabTrigger>
   <description>Method Definition on self with Arguments</description>
   <content><![CDATA[def self.${1:method_name}(${2:*args})
-	$0
+${SELECTION/([^\n]+|^)/\t$0/g}$0
 end]]></content>
   <scope>source.ruby</scope>
 </snippet>

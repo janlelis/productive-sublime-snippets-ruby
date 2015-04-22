@@ -2,7 +2,7 @@
   <tabTrigger>defo0</tabTrigger>
   <description>Method Definition on Object without Arguments</description>
   <content><![CDATA[def ${1:object}.${2:method_name}
-	$0
+${SELECTION/([^\n]+|^)/\t$0/g}$0
 end]]></content>
   <scope>source.ruby</scope>
 </snippet>

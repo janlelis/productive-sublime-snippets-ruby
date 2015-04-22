@@ -3,7 +3,7 @@
   <description>Stdlib Timeout</description>
   <content><![CDATA[begin
 	Timeout.timeout(${1:seconds}){
-		${2:# code}
+${SELECTION/([^\n]+|^)/\t\t$0/g}$2
 	}
 rescue Timeout::Error
 	$3

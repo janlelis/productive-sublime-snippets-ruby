@@ -2,7 +2,7 @@
   <tabTrigger>{</tabTrigger>
   <description>{} Block</description>
   <content><![CDATA[{ |${1:*args}|
-	$0
+${SELECTION/([^\n]+|^)/\t$0/g}$0
 
 ]]></content>
   <scope>source.ruby</scope>

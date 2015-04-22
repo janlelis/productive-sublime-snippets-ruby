@@ -2,7 +2,7 @@
   <tabTrigger>while</tabTrigger>
   <description>While Statement</description>
   <content><![CDATA[while ${1:condition}
-	$2
+${SELECTION/([^\n]+|^)/\t$0/g}$2
 end
 $0]]></content>
   <scope>source.ruby</scope>

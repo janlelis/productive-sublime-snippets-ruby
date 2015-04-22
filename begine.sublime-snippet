@@ -2,7 +2,7 @@
   <tabTrigger>begine</tabTrigger>
   <description>Begin / Rescue / Ensure Statement</description>
   <content><![CDATA[begin
-	$3
+${SELECTION/([^\n]+|^)/\t$0/g}$3
 rescue ${1:StandardError} => ${2:e}
 	$4
 ensure

@@ -2,6 +2,6 @@
     <tabTrigger>###</tabTrigger>
     <description>Comment Section</description>
     <content><![CDATA[# # #
-# ]]></content>
+${SELECTION/([^\n]+|^)/# $0/g}]]></content>
     <scope>source.ruby</scope>
 </snippet>

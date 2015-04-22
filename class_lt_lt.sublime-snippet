@@ -2,7 +2,7 @@
   <tabTrigger>class&lt;&lt;</tabTrigger>
   <description>Open Singleton Class</description>
   <content><![CDATA[class << ${1:self}
-	$2
+${SELECTION/([^\n]+|^)/\t$0/g}$2
 end
 $0]]></content>
   <scope>source.ruby</scope>

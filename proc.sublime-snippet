@@ -2,7 +2,7 @@
   <tabTrigger>proc</tabTrigger>
   <description>Proc with Arguments</description>
   <content><![CDATA[proc{ |$1|
-	$2
+${SELECTION/([^\n]+|^)/\t$0/g}$2
 }$0]]></content>
   <scope>source.ruby</scope>
 </snippet>

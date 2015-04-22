@@ -2,7 +2,7 @@
   <tabTrigger>multicomment</tabTrigger>
   <description>Multi-line Comment</description>
   <content><![CDATA[=begin ${1:description}
-$0
+$SELECTION$0
 =end]]></content>
   <scope>source.ruby</scope>
 </snippet>
