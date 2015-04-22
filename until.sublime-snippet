@@ -1,6 +1,6 @@
 <snippet>
   <tabTrigger>until</tabTrigger>
-  <description>Until Statement</description>
+  <description>Until Statement [X]</description>
   <content><![CDATA[until ${1:condition}
 ${SELECTION/([^\n]+|^)/\t$0/g}$2
 end

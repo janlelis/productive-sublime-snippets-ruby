@@ -1,6 +1,6 @@
 <snippet>
   <tabTrigger>defo0</tabTrigger>
-  <description>Method Definition on Object without Arguments</description>
+  <description>Method Definition on Object without Arguments [X]</description>
   <content><![CDATA[def ${1:object}.${2:method_name}
 ${SELECTION/([^\n]+|^)/\t$0/g}$0
 end]]></content>

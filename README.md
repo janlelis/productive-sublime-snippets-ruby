@@ -30,6 +30,19 @@ You can map keys to insert a specific snippet. This makes especially sense for s
 }
 ```
 
+All snippets that can be wraped arround the selection have a *[X]* in their description. This allows you to define a key mapping, that shows all snippets that you can wrap arround the current selection:
+
+```json
+{
+  "keys": ["alt+shift+w"],
+  "command": "show_overlay",
+  "args": {
+    "overlay": "command_palette",
+    "text": "Snippet: [X]"
+  }
+}
+```
+
 ## Also See
 
 - [Productive Sublime Snippets for ERB](https://github.com/janlelis/productive-sublime-snippets-erb)

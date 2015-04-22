@@ -1,6 +1,6 @@
 <snippet>
   <tabTrigger>begin</tabTrigger>
-  <description>Begin / Rescue Statement</description>
+  <description>Begin / Rescue Statement [X]</description>
   <content><![CDATA[begin
 ${SELECTION/([^\n]+|^)/\t$0/g}$3
 rescue ${1:StandardError} => ${2:e}

@@ -1,6 +1,6 @@
 <snippet>
   <tabTrigger>def0</tabTrigger>
-  <description>Method Definition without Arguments</description>
+  <description>Method Definition without Arguments [X]</description>
   <content><![CDATA[def ${1:method_name}
 ${SELECTION/([^\n]+|^)/\t$0/g}$0
 end]]></content>

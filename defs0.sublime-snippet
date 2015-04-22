@@ -1,6 +1,6 @@
 <snippet>
   <tabTrigger>defs0</tabTrigger>
-  <description>Method Definition on self without Arguments</description>
+  <description>Method Definition on self without Arguments [X]</description>
   <content><![CDATA[def self.${1:method_name}
 ${SELECTION/([^\n]+|^)/\t$0/g}$0
 end]]></content>

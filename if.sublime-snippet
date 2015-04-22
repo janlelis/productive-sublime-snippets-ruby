@@ -1,6 +1,6 @@
 <snippet>
   <tabTrigger>if</tabTrigger>
-  <description>If Statement</description>
+  <description>If Statement [X]</description>
   <content><![CDATA[if ${1:condition}
 ${SELECTION/([^\n]+|^)/\t$0/g}$2
 end

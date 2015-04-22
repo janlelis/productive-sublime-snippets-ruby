@@ -1,6 +1,6 @@
 <snippet>
   <tabTrigger>here</tabTrigger>
-  <description>Heredoc with Interpolation</description>
+  <description>Heredoc with Interpolation [X]</description>
   <content><![CDATA[<<-${1:STRING}
 $SELECTION$0
 $1]]></content>

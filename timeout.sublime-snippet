@@ -1,6 +1,6 @@
 <snippet>
   <tabTrigger>timeout</tabTrigger>
-  <description>Stdlib Timeout</description>
+  <description>Stdlib Timeout [X]</description>
   <content><![CDATA[begin
 	Timeout.timeout(${1:seconds}){
 ${SELECTION/([^\n]+|^)/\t\t$0/g}$2

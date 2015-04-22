@@ -1,6 +1,6 @@
 <snippet>
   <tabTrigger>proc</tabTrigger>
-  <description>Proc with Arguments</description>
+  <description>Proc with Arguments [X]</description>
   <content><![CDATA[proc{ |$1|
 ${SELECTION/([^\n]+|^)/\t$0/g}$2
 }$0]]></content>

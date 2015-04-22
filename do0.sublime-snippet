@@ -1,6 +1,6 @@
 <snippet>
   <tabTrigger>do0</tabTrigger>
-  <description>Do Block without Arguments</description>
+  <description>Do Block without Arguments [X]</description>
   <content><![CDATA[do
 ${SELECTION/([^\n]+|^)/\t$0/g}$0
 end]]></content>

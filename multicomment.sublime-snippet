@@ -1,6 +1,6 @@
 <snippet>
   <tabTrigger>multicomment</tabTrigger>
-  <description>Multi-line Comment</description>
+  <description>Multi-line Comment [X]</description>
   <content><![CDATA[=begin ${1:description}
 $SELECTION$0
 =end]]></content>

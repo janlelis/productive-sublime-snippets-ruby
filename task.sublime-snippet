@@ -1,6 +1,6 @@
 <snippet>
   <tabTrigger>task</tabTrigger>
-  <description>Rake Task</description>
+  <description>Rake Task [X]</description>
   <content><![CDATA[desc "${1:description}"
 task :${2:task_name}${3: => :${4:dependens_on}} do
 ${SELECTION/([^\n]+|^)/\t$0/g}$5

@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.3
+
+* Explain overlay list of all wrappable snippets
+
 ## 1.0.2
 
 * Make snippets wrappable around current selection (where it makes sense)

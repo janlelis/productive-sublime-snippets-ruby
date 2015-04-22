@@ -1,6 +1,6 @@
 <snippet>
   <tabTrigger>lambda0</tabTrigger>
-  <description>Create Lambda without Arguments</description>
+  <description>Create Lambda without Arguments [X]</description>
   <content><![CDATA[->{
 ${SELECTION/([^\n]+|^)/\t$0/g}$1
 }$0]]></content>
