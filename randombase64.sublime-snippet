@@ -1,0 +1,6 @@
+<snippet>
+  <tabTrigger>randombase64</tabTrigger>
+  <description>Random Number Base64</description>
+  <content><![CDATA[SecureRandom.base64(${1:16})$0]]></content>
+  <scope>source.ruby</scope>
+</snippet>
