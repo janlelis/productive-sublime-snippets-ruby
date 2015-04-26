@@ -1,0 +1,6 @@
+<snippet>
+  <tabTrigger>randomurlsafebase64</tabTrigger>
+  <description>Random URL Safe Base64</description>
+  <content><![CDATA[SecureRandom.urlsafe_base64(${1:16}, ${false:false})$0]]></content>
+  <scope>source.ruby</scope>
+</snippet>

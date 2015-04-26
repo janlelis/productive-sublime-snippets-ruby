@@ -1,0 +1,6 @@
+<snippet>
+  <tabTrigger>randomhex</tabTrigger>
+  <description>Random Number Hexadecimal</description>
+  <content><![CDATA[SecureRandom.hex(${1:16})$0]]></content>
+  <scope>source.ruby</scope>
+</snippet>
