@@ -3,7 +3,7 @@
         Trigger |                                        Description | Wrappable?
 ----------------|----------------------------------------------------| ----------
           !ruby |                                       Ruby Shebang |
-            ### |                                    Comment Section | X
+            ### |                                Comment Section [X] | X
               & |                                     Symbol To Proc |
              ?: |                                   Ternary Operator |
            Name |                          Insert Camelized Filename |
@@ -12,31 +12,31 @@
              ar |                                   Attribute Reader |
           ascii |                    ASCII - Source Encoding Comment |
              aw |                                   Attribute Writer |
-          begin |                           Begin / Rescue Statement | X
-         begine |                  Begin / Rescue / Ensure Statement | X
+          begin |                       Begin / Rescue Statement [X] | X
+         begine |              Begin / Rescue / Ensure Statement [X] | X
          binary |                   Binary - Source Encoding Comment |
          callee |                      Special \_\_callee\_\_ Method |
            case |                                     Case Statement |
           case0 |                   Case Statement as If Alternative |
           catch |                               Catch and Throw Flow |
           class |                                   Class Definition |
-        class<< |                               Open Singleton Class | X
+        class<< |                           Open Singleton Class [X] | X
    classinclude |                         Class Definition (Include) |
    classinherit |                       Class Definition (Sub-Class) |
             d64 |                                      Decode Base64 |
-            def |                   Method Definition with Arguments | X
-           def0 |                Method Definition without Arguments | X
+            def |               Method Definition with Arguments [X] | X
+           def0 |            Method Definition without Arguments [X] | X
            defi |                         Method Definition (Inline) |
         defined |                                     Defined? Check |
-           defo |         Method Definition on Object with Arguments | X
-          defo0 |      Method Definition on Object without Arguments | X
+           defo |     Method Definition on Object with Arguments [X] | X
+          defo0 |  Method Definition on Object without Arguments [X] | X
           defoi |               Method Definition on Object (Inline) |
-           defs |           Method Definition on self with Arguments | X
-          defs0 |        Method Definition on self without Arguments | X
+           defs |       Method Definition on self with Arguments [X] | X
+          defs0 |    Method Definition on self without Arguments [X] | X
           defsi |                 Method Definition on self (Inline) |
             dir |                         Special \_\_dir\_\_ Method |
-             do |                            Do Block with Arguments | X
-            do0 |                         Do Block without Arguments | X
+             do |                        Do Block with Arguments [X] | X
+            do0 |                     Do Block without Arguments [X] | X
             e64 |                                      Encode Base64 |
            else |                                     Else Statement |
           elsif |                                    Elsif Statement |
@@ -53,12 +53,12 @@
    gemgitbranch |          Bundler Gem Line with Git Option (Branch) |
       gemgittag |             Bundler Gem Line with Git Option (Tag) |
         gemspec |                             Basic Gemspec Template |
-          group |                                      Bundler Group | X
+          group |                                  Bundler Group [X] | X
        hashproc |                         New Hash with Default Proc |
-           here |                         Heredoc with Interpolation | X
-          here' |                      Heredoc without Interpolation | X
-             if |                                       If Statement | X
-            ife |                      If Statement with Else Clause | X
+           here |                     Heredoc with Interpolation [X] | X
+          here' |                  Heredoc without Interpolation [X] | X
+             if |                                   If Statement [X] | X
+            ife |                  If Statement with Else Clause [X] | X
         include |                                     Include Method |
            init |                   Initialize Method with Arguments |
           init0 |                       Initialize without Arguments |
@@ -66,8 +66,8 @@
             ips |                               Stdlib IPS Benchmark |
             ivg |                           Instance Variable Getter |
             ivs |                           Instance Variable Setter |
-         lambda |                       Create Lambda with Arguments | X
-        lambda0 |                    Create Lambda without Arguments | X
+         lambda |                   Create Lambda with Arguments [X] | X
+        lambda0 |                Create Lambda without Arguments [X] | X
        lambda0i |           Create Lambda without Arguments (Inline) |
         lambdai |              Create Lambda with Arguments (Inline) |
              ld |                                        Load Method |
@@ -78,16 +78,19 @@
          module |                                  Module Definition |
  moduleextended |               Module Definition with Extended Hook |
  moduleincluded |               Module Definition with Included Hook |
-   multicomment |                                 Multi-line Comment | X
+   multicomment |                             Multi-line Comment [X] | X
           open3 |                                          Pipe Open |
         prepend |                                     Prepend Method |
-           proc |                                Proc with Arguments | X
-          proc0 |                             Proc without Arguments | X
+           proc |                            Proc with Arguments [X] | X
+          proc0 |                         Proc without Arguments [X] | X
          proc0i |                    Proc without Arguments (Inline) |
           proci |                       Proc with Arguments (Inline) |
        rakefile |                   Basic Rakefile Template for Gems |
          random |                                      Random Number |
+   randombase64 |                               Random Number Base64 |
     randombytes |                                       Random Bytes |
+      randomhex |                          Random Number Hexadecimal |
+randomurlsafebase64 |                             Random URL Safe Base64 |
           range |                                  Range (Inclusive) |
          rangee |                                  Range (Exclusive) |
           regex |                                              Regex |
@@ -101,14 +104,14 @@
          sha256 |                                   SHA 256 Hash Sum |
          sha512 |                                   SHA 512 Hash Sum |
          struct |                                             Struct |
-           task |                                          Rake Task | X
-        timeout |                                     Stdlib Timeout | X
+           task |                                      Rake Task [X] | X
+        timeout |                                 Stdlib Timeout [X] | X
           undef |                                  Undefine a Method |
-         unless |                                   Unless Statement | X
-          until |                                    Until Statement | X
+         unless |                               Unless Statement [X] | X
+          until |                                Until Statement [X] | X
             utf |                    UTF-8 - Source Encoding Comment |
            uuid |                                  Random Type4 UUID |
         version |                        Version Constant Definition |
            when |                                     When Statement |
-          while |                                    While Statement | X
-              { |                                           {} Block | X
+          while |                                While Statement [X] | X
+              { |                                       {} Block [X] | X

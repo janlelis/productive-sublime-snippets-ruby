@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.4
+
+* Add randomhex, randombase64, randomurlsafebase64
+
 ## 1.0.3
 
 * Explain overlay list of all wrappable snippets
