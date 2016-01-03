@@ -1,6 +1,6 @@
 <snippet>
   <tabTrigger>binary</tabTrigger>
-  <description>Binary - Source Encoding Comment</description>
+  <description>Binary Source Encoding</description>
   <content><![CDATA[# encoding: binary
 $0]]></content>
   <scope>source.ruby</scope>

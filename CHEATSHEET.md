@@ -10,11 +10,11 @@
                   aa |                  Attribute Accessor (Read + Write)
                alias |                                       Define Alias
                   ar |                                   Attribute Reader
-               ascii |                    ASCII - Source Encoding Comment
+               ascii |                              ASCII Source Encoding
                   aw |                                   Attribute Writer
                begin |                       Begin / Rescue Statement [X]
               begine |              Begin / Rescue / Ensure Statement [X]
-              binary |                   Binary - Source Encoding Comment
+              binary |                             Binary Source Encoding
               callee |                      Special \_\_callee\_\_ Method
                 case |                                     Case Statement
                case0 |                   Case Statement as If Alternative
@@ -46,6 +46,7 @@
            exception |                       New Custom Error (Exception)
               extend |                                      Extend Method
                 file |                     Special \_\_FILE\_\_ Statement
+              frozen |                              Enable Frozen Strings
                  gem |                                   Bundler Gem Line
              gemfile |                             Basic Gemfile Template
       gemfilegemspec |                    Basic Gemfile Template for Gems
@@ -107,9 +108,10 @@
                 task |                                      Rake Task [X]
              timeout |                                 Stdlib Timeout [X]
                undef |                                  Undefine a Method
+            unfrozen |                             Disable Frozen Strings
               unless |                               Unless Statement [X]
                until |                                Until Statement [X]
-                 utf |                    UTF-8 - Source Encoding Comment
+                 utf |                              UTF-8 Source Encoding
                 uuid |                                  Random Type4 UUID
              version |                        Version Constant Definition
                 when |                                     When Statement

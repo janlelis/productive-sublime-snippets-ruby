@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.5
+
+* Add frozen, unfrozen to toggle Ruby 2.3's frozen string literals
+
 ## 1.0.4
 
 * Add randomhex, randombase64, randomurlsafebase64

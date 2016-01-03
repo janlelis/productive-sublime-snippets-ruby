@@ -1,6 +1,6 @@
 <snippet>
   <tabTrigger>utf</tabTrigger>
-  <description>UTF-8 - Source Encoding Comment</description>
+  <description>UTF-8 Source Encoding</description>
   <content><![CDATA[# encoding: utf-8
 $0]]></content>
   <scope>source.ruby</scope>

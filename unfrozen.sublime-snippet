@@ -1,0 +1,7 @@
+<snippet>
+  <tabTrigger>unfrozen</tabTrigger>
+  <description>Disable Frozen Strings</description>
+  <content><![CDATA[# frozen_string_literal: false
+$0]]></content>
+  <scope>source.ruby</scope>
+</snippet>
