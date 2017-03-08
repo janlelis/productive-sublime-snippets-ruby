@@ -1,4 +1,7 @@
 # Changelog
+## 1.0.6
+
+* Fix elseif -> elsif
 
 ## 1.0.5
 

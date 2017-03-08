@@ -1,7 +1,7 @@
 <snippet>
   <tabTrigger>elsif</tabTrigger>
   <description>Elsif Statement</description>
-  <content><![CDATA[elseif ${1:condition}
+  <content><![CDATA[elsif ${1:condition}
 	$0]]></content>
   <scope>source.ruby</scope>
 </snippet>
