@@ -16,12 +16,12 @@ Dir["*.sublime-snippet"].each{ |filename|
 banner = <<BANNER
 # #{title}
 
-             Trigger |                                        Description
----------------------|---------------------------------------------------
+|             Trigger |                                        Description |
+|---------------------|----------------------------------------------------|
 BANNER
 
 puts banner + snippets.sort.map{ |trigger, (description, wrapable)|
-  "% 20s | % 50s" % [
+  "|% 20s | % 50s |" % [
     trigger,
     description.gsub("__", "\\_\\_"),
     # wrapable ? " X" : ""
